@@ -7,4 +7,4 @@ function test() {
   var passwordStore = localStorage.setItem("password", password);
 
 }
-alert('this aint real m8');
+alert('this isnt real!');
